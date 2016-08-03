@@ -25,7 +25,7 @@ namespace Homework6
         public bool IsOn
         {
             get { return isOn; }
-            set { isOn = IsOn; }
+            set { isOn = value; }
         }
 
         public int Volume
@@ -37,7 +37,7 @@ namespace Homework6
         public int Channel
         {
             get { return channel; }
-            set { channel = Channel; }
+            set { channel = value; }
         }
 
     }
