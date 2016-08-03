@@ -31,7 +31,7 @@ namespace Homework6
         public int Volume
         {
             get { return volume; }
-            set { volume = volume + 1; }
+            set { volume = value; }
         }
 
         public int Channel
@@ -62,6 +62,9 @@ namespace Homework6
             tv.Volume++;
 
             tv.Volume++;
+            
+            tv.Volume--;
+            tv.Volume--;
 
             tv.IsOn = false;
         }
